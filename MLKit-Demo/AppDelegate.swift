@@ -1,12 +1,5 @@
-//
-//  AppDelegate.swift
-//  MLKit-Demo
-//
-//  Created by artnoi on 18/5/2561 BE.
-//  Copyright © 2561 invp. All rights reserved.
-//
-
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +8,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
+
         return true
     }
 
