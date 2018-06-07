@@ -1,3 +1,3 @@
 # MLKit-Demo
 
-Run pod install
+Installation : pod install
