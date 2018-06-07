@@ -1,3 +1,10 @@
 # MLKit-Demo
+Demo for use MLKit in simple
 
-Installation : pod install
+## Installation 
+This project need to install MLKit from Firebase
+
+```
+$ pod install
+```
+
